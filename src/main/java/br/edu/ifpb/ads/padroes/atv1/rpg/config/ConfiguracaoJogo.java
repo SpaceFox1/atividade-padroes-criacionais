@@ -1,8 +1,15 @@
 package br.edu.ifpb.ads.padroes.atv1.rpg.config;
 
 public class ConfiguracaoJogo {
-
+    private static ConfiguracaoJogo instance;
     private int nivelDificuldade;
+
+    public static synchronized ConfiguracaoJogo getInstance() {
+        if (instance == null) {
+            instance = new ConfiguracaoJogo();
+        }
+        return instance;
+    }
 
     public ConfiguracaoJogo() {
         this.nivelDificuldade = 1;
