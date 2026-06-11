@@ -1,4 +1,4 @@
-package br.edu.ifpb.ads.padroes.atv1.pagamentos;
+package br.edu.ifpb.ads.padroes.atv2;
 
 public class PagSeguroAdapter implements PagamentoGateway {
     private final PagSeguroSDK sdk = new PagSeguroSDK();

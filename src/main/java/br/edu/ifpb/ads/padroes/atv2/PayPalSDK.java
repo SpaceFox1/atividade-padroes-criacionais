@@ -1,4 +1,4 @@
-package br.edu.ifpb.ads.padroes.atv1.pagamentos;
+package br.edu.ifpb.ads.padroes.atv2;
 
 public class PayPalSDK {
     public void enviarPagamentoPayPal(double valor) {

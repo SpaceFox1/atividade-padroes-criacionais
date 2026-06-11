@@ -1,4 +1,4 @@
-package br.edu.ifpb.ads.padroes.atv1.pagamentos;
+package br.edu.ifpb.ads.padroes.atv2;
 
 public interface PagamentoGateway {
     void processar(double valor);
